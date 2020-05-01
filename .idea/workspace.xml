@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="398d24c7-af8e-4458-bfb2-440ac4f755b3" name="Default Changelist" comment="" />
+    <list default="true" id="398d24c7-af8e-4458-bfb2-440ac4f755b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/containers/BaseContainerComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/.data.blob" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/esm/.data.blob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/.data.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/esm/.data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/0ec6e9c18bce1326.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/1e7ce3c8d6221a27.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/2f0b94d30b2b3897.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/58f93f840e1588b3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/esm/cee7634a82e3fea5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/typography/BaseTypographyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/typography/BaseTypographyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styleguide/styleguide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styleguide/styleguide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/BaseComponentTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/BaseComponentTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/typography/HeaderComponentTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/typography/HeaderComponentTest.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +31,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bIcjj6wrVty4b83IlrGJFDAg15" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -44,11 +65,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588323184684</updated>
-      <workItem from="1588323186095" duration="3844000" />
+      <workItem from="1588323186095" duration="5469000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

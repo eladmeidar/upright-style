@@ -28,6 +28,23 @@ describe('BaseComponent', () => {
       })
       assert.equal(component.classes.length, 2)
     })
+    it('should add custom css', () => {
+      let component = new BaseComponent({
+        css: {
+          color: 'red'
+        }
+      })
+      assert.equal(component.render().style.color, 'red')
+    })
+    it('should add attributes', () => {
+      let component = new BaseComponent({
+        attributes: {
+          href: 'http://eladisawesome.com'
+        }
+      })
+      component.htmlTag = 'a'
+      assert.equal(component.render().href, 'http://eladisawesome.com/')
+    })
   })
   describe('#render', () => {
     it('should render a paragraph', () => {
@@ -73,8 +90,7 @@ describe('BaseComponent', () => {
       let html = component.render({}, () => {
         return child.render()
       })
-      assert.equal(html.outerHTML, '<div></div>')
-      assert.equal(html.innerHtml, '<p></p>')
+      assert.equal(html.outerHTML, '<div><p></p></div>')
     })
   })
   describe('#registerEvents', () => {

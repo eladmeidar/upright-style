@@ -24,6 +24,7 @@ describe('HeaderComponent', () => {
         text: 'hello there'
       })
       assert.equal(component.render().classList.contains('uprightHeader'), true)
+      assert.equal(component.render().classList.contains('typography'), true)
     })
   })
 })

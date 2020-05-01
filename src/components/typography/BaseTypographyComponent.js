@@ -4,6 +4,7 @@ export default class BaseTypographyComponent extends BaseComponent {
   constructor (options = {}) {
     super(options)
     this.text = options.text
+    this.defaultStyleGuideName = 'typography'
   }
 
   render(renderOptions, childCallback) {
